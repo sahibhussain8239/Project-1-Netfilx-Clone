@@ -361,3 +361,31 @@ ul{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 800px) {
+    .details-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .details{
+        width: 90%;
+        height: auto;
+    }
+    .footer-links ul{
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav span img{
+        width: 100px;
+    }
+    .hero div{
+        text-wrap: wrap;
+        height: auto;
+
+    }
+}
