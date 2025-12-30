@@ -313,6 +313,11 @@ ul{
     padding: 24px;
 }
 
+.faq-box:hover{
+    background-color: rgb(65, 65, 65);
+    cursor: pointer;
+}
+
 .faq-container{
     margin-bottom: 80px;
 }
